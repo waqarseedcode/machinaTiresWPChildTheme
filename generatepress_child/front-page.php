@@ -18,6 +18,10 @@
         <video id="video_background" autoplay muted preload="none">
             <source src="<?php echo get_stylesheet_directory_uri() ?>/images/header-bg/video.mp4" type="video/mp4" />
         </video>
+    	<script>
+	document.getElementById('video_background').play();
+	</script>
+
         <div class="container hero-text-box align-items-center" id="hero-container-content"
             name="hero-container-content">
             <div class="row text-center">
