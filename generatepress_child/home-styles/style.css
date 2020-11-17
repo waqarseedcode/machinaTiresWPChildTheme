@@ -1201,6 +1201,23 @@ ol.carousel-indicators li.active {
     }
 }
 
+@media only screen and (max-width: 660px){
+    .hero-text-box h3 .delay-2,
+    .hero-text-box h3 .delay-3,
+    .hero-text-box h3 .delay-4,
+    .hero-text-box h3 .delay-5,
+    .hero-text-box h3 .delay-6,
+    .hero-text-box h3 .delay-7,
+    .hero-text-box h3 .delay-8,
+    .hero-text-box h3.delay-9,
+    .hero-text-box h3.delay-10,
+    .row.text-center.mt-md-4.sub-text.delay-4s {
+        animation-delay: 0s !important;
+        animation-duration: 0s  !important;
+        animation-name: none !important;
+    }
+}
+
 /* -------------------------------------------PROMOTION------------------------------------------ */
 
 .promotion-container {
